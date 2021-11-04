@@ -47,10 +47,6 @@ class QuestionController extends AbstractController
      */
     public function show($slug, MarkdownHelper $markdownHelper): Response
     {
-        if ($this->$this->isDebug) {
-            $this->logger->info('Debugging mode');
-        }
-
         $answers = [
             'Make sure your cat is sitting `purrrfectly` still 🤣',
             'Honestly, I like furry shoes better than MY cat',
