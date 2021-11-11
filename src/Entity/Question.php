@@ -7,7 +7,6 @@ use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Mapping\Annotation as Gedmo;
 use Gedmo\Timestampable\Traits\TimestampableEntity;
-use JetBrains\PhpStorm\Pure;
 
 /**
  * @ORM\Entity(repositoryClass=QuestionRepository::class)
@@ -107,7 +106,7 @@ class Question
         return $this->votes;
     }
 
-    #[Pure] public function getVotesString(): string
+    public function getVotesString(): string
     {
         $prefix = $this->getVotes() >= 0 ? '+' : '-';
 
