@@ -10,12 +10,14 @@
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.10",
         "knplabs/knp-markdown-bundle": "^1.9",
+        "knplabs/knp-snappy-bundle": "^1.6",
         "knplabs/knp-time-bundle": "^1.17",
         "laminas/laminas-zendframework-bridge": "^1.4",
         "nyholm/psr7": "^1.4",
         "paragonie/sodium_compat": "^1.17",
         "sensio/framework-extra-bundle": "^5.5",
         "sentry/sentry-symfony": "^4.2",
+        "stof/doctrine-extensions-bundle": "^1.6",
         "symfony/asset": "5.0.*",
         "symfony/console": "5.0.*",
         "symfony/debug-bundle": "5.0.*",
@@ -26,6 +28,7 @@
         "symfony/proxy-manager-bridge": "5.0.*",
         "symfony/routing": "5.1.*",
         "symfony/stopwatch": "5.0.*",
+        "symfony/string": "5.0.*",
         "symfony/twig-bundle": "5.0.*",
         "symfony/var-dumper": "5.0.*",
         "symfony/web-profiler-bundle": "5.0.*",
@@ -35,7 +38,9 @@
         "twig/twig": "^2.12|^3.0"
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.34"
+        "doctrine/doctrine-fixtures-bundle": "^3.4",
+        "symfony/maker-bundle": "^1.34",
+        "zenstruck/foundry": "^1.13"
     },
     "config": {
         "preferred-install": {
@@ -81,7 +86,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": true,
-            "require": "5.0.*"
+            "require": "5.*"
         }
     }
 }
