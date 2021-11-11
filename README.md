@@ -1,3 +1,6 @@
+<a href="https://codeclimate.com/github/cezarpopa/scaling-train/maintainability"><img src="https://api.codeclimate.com/v1/badges/152f1a3a599c11d02ffc/maintainability" /></a>
+<a href="https://codeclimate.com/github/cezarpopa/scaling-train/test_coverage"><img src="https://api.codeclimate.com/v1/badges/152f1a3a599c11d02ffc/test_coverage" /></a>
+
 ## Setup
 
 If you've just downloaded the code, congratulations!!
