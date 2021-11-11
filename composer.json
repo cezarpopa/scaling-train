@@ -10,6 +10,7 @@
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.10",
         "knplabs/knp-markdown-bundle": "^1.9",
+        "knplabs/knp-time-bundle": "^1.17",
         "laminas/laminas-zendframework-bridge": "^1.4",
         "nyholm/psr7": "^1.4",
         "paragonie/sodium_compat": "^1.17",
